@@ -1,9 +1,5 @@
 package keyboard
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println("keyboard package")
+func GetName() string {
+	return "keyboard package"
 }
